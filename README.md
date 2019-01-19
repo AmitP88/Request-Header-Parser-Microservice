@@ -1,5 +1,10 @@
 # API Project: Request Header Parser Microservice for freeCodeCamp
 
+## To Run Project
+1. Go to https://amitp88-request-header-parser-microservice.glitch.me/
+2. At the end of the URL, add /api/whoami
+3. The page will load and you should see a JSON object with three pieces of information regarding your computer - your IP address, your preferred language (according to your browsers' header settings), and your system info
+
 ### User stories:
 1. I can get the IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) for my device.
 
